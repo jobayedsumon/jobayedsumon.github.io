@@ -501,7 +501,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "googleplay",
+        name: "in-app-purchase",
         color: "pink-text-gradient",
       },
     ],

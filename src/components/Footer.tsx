@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="text-center bg-black-200">
       <p className="text-white font-black text-[30px]">Connect with me on</p>
-      <ul className="flex justify-center gap-10 mt-3">
+      <ul className="flex justify-center gap-5 mt-3">
         <li>
           <a
             href="https://linkedin.com/in/jobayedsumon"
@@ -29,6 +29,14 @@ const Footer = () => {
             className="text-[#915EFF] hover:text-white text-[30px]"
           >
             <i className="fas fa-envelope"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://wa.me/+8801677242853"
+            className="text-[#915EFF] hover:text-white text-[30px]"
+          >
+            <i className="fab fa-whatsapp"></i>
           </a>
         </li>
         <li>
