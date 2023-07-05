@@ -570,7 +570,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: abirvabnews,
+    image: whymom,
   },
   {
     name: "Cookie - reward converter",
