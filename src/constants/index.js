@@ -45,6 +45,11 @@ import {
   citybankerp,
   cookieapp,
   cookieweb,
+  olivebranch,
+  smcportfolio,
+  whymom,
+  ankhmarketplace,
+  myplanetearth,
 } from "../assets";
 
 export const navLinks = [
@@ -188,16 +193,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "Virtual Market Solution Limited",
-    icon: vmsl,
+    title: "Software Engineer",
+    company_name: "The Wick Firm",
+    icon: wick,
     iconBg: "#383E56",
-    date: "June 2020 - December 2020",
+    date: "May 2022 - May 2023",
     points: [
-      "Built websites with Laravel, jQuery and MySQL.",
-      "Built web apps and POS systems for businesses.",
-      "Developed APIs for mobile apps.",
-      "Updated and maintained existing websites.",
+      "Built NFT tracking dashboard using Laravel and Web3.",
+      "Developed dynamic dashboard and websites using Laravel, MySQL and React.js/Next.js.",
+      "Developed AI based chatbot and creative ads generator using Python, OpenAI and React.js.",
+      "Implementing responsive design and ensuring cross-browser compatibility follwoing figma, adobe xd.",
     ],
   },
   {
@@ -214,16 +219,16 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "The Wick Firm",
-    icon: wick,
+    title: "Web Developer",
+    company_name: "Virtual Market Solution Limited",
+    icon: vmsl,
     iconBg: "#383E56",
-    date: "May 2022 - May 2023",
+    date: "June 2020 - Feb 2021",
     points: [
-      "Built NFT tracking dashboard using Laravel and Web3.",
-      "Developed dynamic dashboard and websites using Laravel, MySQL and React.js/Next.js.",
-      "Developed AI based chatbot and creative ads generator using Python, OpenAI and React.js.",
-      "Implementing responsive design and ensuring cross-browser compatibility follwoing figma, adobe xd.",
+      "Built websites with Laravel, jQuery and MySQL.",
+      "Built web apps and POS systems for businesses.",
+      "Developed APIs for mobile apps.",
+      "Updated and maintained existing websites.",
     ],
   },
 ];
@@ -252,7 +257,7 @@ const projects = [
   {
     name: "IFIC Bank ERP",
     description:
-      "Developed various ERP modules of one of the Bangladesh's top bank IFIC using Next.js.",
+      "Developed various ERP modules of one of the Bangladesh's top bank IFIC using Next.js, Nest.js and PostgreSQL.",
     tags: [
       {
         name: "nextjs",
@@ -272,7 +277,7 @@ const projects = [
   {
     name: "City Bank ERP",
     description:
-      "Developed the expense management module of one of the Bangladesh's top bank City bank's core ERP solution using PHP Codeigniter and MySQL.",
+      "Developed the expense management module of one of the Bangladesh's top bank City bank's core ERP solution using PHP Codeigniter and Oracle.",
     tags: [
       {
         name: "php",
@@ -312,7 +317,7 @@ const projects = [
   {
     name: "NFTY Dash",
     description:
-      "Developed NFT tracking dashboard from The wick Firm using Laravel and Web3.",
+      "Developed NFT tracking dashboard for The wick Firm using Laravel and Web3.",
     tags: [
       {
         name: "laravel",
@@ -328,6 +333,25 @@ const projects = [
       },
     ],
     image: nftdash,
+  },
+  {
+    name: "ANKH Marketlpace",
+    description: "Developed NFT marketplace using Laravel and Web3.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web3",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ankhmarketplace,
   },
   {
     name: "In A Funny Way",
@@ -350,9 +374,29 @@ const projects = [
     image: inafunnyway,
   },
   {
+    name: "My Planet Earth",
+    description:
+      "My Planet Earth portfolio and NFT sale using Laravel and Stripe from Figma design.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: myplanetearth,
+  },
+  {
     name: "Baladna",
     description:
-      "Baladna is a Qatar based food company portfolio website built using Laravel and React.js.",
+      "Baladna is a Qatar based food company portfolio website built using Laravel and React.js with multi language feature.",
     tags: [
       {
         name: "laravel",
@@ -372,7 +416,7 @@ const projects = [
   {
     name: "Aamar Shop",
     description:
-      "Built the frontend, admin panel and API of Amar Shop e-commerce website using Laravel and MySQL.",
+      "Built the Frontend, Admin Panel and API of Amar Shop e-commerce website using Laravel and MySQL.",
     tags: [
       {
         name: "laravel",
@@ -448,10 +492,51 @@ const projects = [
     ],
     image: mmclothing,
   },
+
   {
-    name: "Cookie - reward converter Web",
+    name: "Olive Branch",
     description:
-      "Frontend dashboard and API for cookie - reward converter using Laravel, and MySQL.",
+      "Olive Branch real state company portfolio using React.js from Figma design.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: olivebranch,
+  },
+  {
+    name: "SMC Portfolio",
+    description:
+      "SMC advertising company's portfolio using Laravel and MySQL from Figma design.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: smcportfolio,
+  },
+  {
+    name: "Cookie - reward converter Web And Admin",
+    description:
+      "Frontend, Dashboard and API for cookie - reward converter using Laravel, and MySQL.",
     tags: [
       {
         name: "laravel",
@@ -469,8 +554,8 @@ const projects = [
     image: cookieweb,
   },
   {
-    name: "Abirvab News 24",
-    description: "Online news portal using Raw PHP and MySQL.",
+    name: "Whymom",
+    description: "Q&A forum for mother of babies using Raw PHP and MySQL.",
     tags: [
       {
         name: "php",

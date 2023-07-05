@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import resume from "../assets/JobayedSumon_SoftwareEngineer_FullStack.pdf";
+import resume from "../assets/JobayedSumon_FullStack_SoftwareEngineer.pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -53,7 +53,7 @@ const Navbar = () => {
           <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
             <a
               href={resume}
-              download="JobayedSumon_SoftwareEngineer_FullStack.pdf"
+              download="JobayedSumon_FullStack_SoftwareEngineer.pdf"
             >
               Resume
             </a>
@@ -93,7 +93,7 @@ const Navbar = () => {
               >
                 <a
                   href={resume}
-                  download="JobayedSumon_SoftwareEngineer_FullStack.pdf"
+                  download="JobayedSumon_FullStack_SoftwareEngineer.pdf"
                 >
                   Resume
                 </a>

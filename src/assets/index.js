@@ -52,6 +52,11 @@ import inafunnyway from "./works/inafunnyway.png";
 import mmclothing from "./works/mmclothing.png";
 import nationalhousing from "./works/nationalhousing.png";
 import nftdash from "./works/nftdash.png";
+import olivebranch from "./works/olivebranch.png";
+import ankhmarketplace from "./works/ankhmarketplace.png";
+import myplanetearth from "./works/myplanetearth.png";
+import smcportfolio from "./works/smcportfolio.png";
+import whymom from "./works/whymom.png";
 
 export {
   logo,
@@ -104,4 +109,9 @@ export {
   mmclothing,
   nationalhousing,
   nftdash,
+  olivebranch,
+  ankhmarketplace,
+  myplanetearth,
+  smcportfolio,
+  whymom,
 };
