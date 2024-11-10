@@ -57,6 +57,8 @@ import ankhmarketplace from "./works/ankhmarketplace.png";
 import myplanetearth from "./works/myplanetearth.png";
 import smcportfolio from "./works/smcportfolio.png";
 import whymom from "./works/whymom.png";
+import shuttle from "./company/shuttle.png";
+import shuttleWebsite from "./works/shuttleWebsite.png";
 
 export {
   logo,
@@ -114,4 +116,6 @@ export {
   myplanetearth,
   smcportfolio,
   whymom,
+  shuttle,
+  shuttleWebsite,
 };

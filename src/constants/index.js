@@ -37,7 +37,7 @@ import {
   nationalhousing,
   nftdash,
   aamarshop,
-  abirvabnews,
+  shuttle,
   almadinacar,
   apsiserp,
   apsishrm,
@@ -50,6 +50,7 @@ import {
   whymom,
   ankhmarketplace,
   myplanetearth,
+  shuttleWebsite,
 } from "../assets";
 
 export const navLinks = [
@@ -194,6 +195,18 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer",
+    company_name: "Shuttle Delivery Co. Ltd.",
+    icon: shuttle,
+    iconBg: "#ff9100",
+    date: "Aug 2023 - Present",
+    points: [
+      "Working on the core system with Codeigniter, MySQL and Laravel Packages",
+      "Building APIs for mobile application",
+      "Working on the delivery dispatch system with Node.js MongoDB",
+    ],
+  },
+  {
+    title: "Software Engineer",
     company_name: "The Wick Firm",
     icon: wick,
     iconBg: "#383E56",
@@ -222,7 +235,7 @@ const experiences = [
     title: "Web Developer",
     company_name: "Virtual Market Solution Limited",
     icon: vmsl,
-    iconBg: "#383E56",
+    iconBg: "#5EB1DE",
     date: "June 2020 - Feb 2021",
     points: [
       "Built websites with Laravel, jQuery and MySQL.",
@@ -254,6 +267,26 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Shuttle Delivery",
+    description:
+        "Working on the core system with Codeigniter, MySQL and Laravel Packages. Working on the delivery dispatch system with Node.js MongoDB.",
+    tags: [
+      {
+        name: "codeigniter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shuttleWebsite,
+  },
   {
     name: "IFIC Bank ERP",
     description:
