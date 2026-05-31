@@ -49,11 +49,11 @@ const About = () => {
       >
         I'm a full-stack software engineer with expertise in Laravel, React and
         Flutter. I've extensive knowledge of databases like MySQL, PostgreSQL,
-        SQLite, Firebase, Oracle etc. PHP, JavaScript and TypeScript is my
-        comfort language with expertise in algorithm design and data structures.
-        I'm a quick learner and collaborate closely with clients or team to
+        MongoDB, SQLite, Firebase etc. PHP, javaScript, typeScript are among my
+        comfort languages with expertise in algorithm design and data structures.
+        I'm a quick learner and collaborate closely with teams or clients to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems. Let's work together to bring ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

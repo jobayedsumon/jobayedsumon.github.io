@@ -44,9 +44,6 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="object-contain" width={150} />
-          <p className="text-white text-[18px] font-bold cursor-pointer hidden md:flex ">
-            Jobayed Sumon
-          </p>
         </Link>
 
         <ul className="list-none hidden md:flex flex-row gap-10">
